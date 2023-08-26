@@ -28,7 +28,7 @@ body {
 }
 
 #card2{
-    background-color: blue;
+    background-color: rgb(88, 88, 202);
     width: 80px;
     transition: .8s;
     
