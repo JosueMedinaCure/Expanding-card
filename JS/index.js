@@ -1,20 +1,24 @@
 
-
+/* 
    const card = document.getElementById('card1');
     card.addEventListener('click', () =>{
 
     document.getElementById('card2').style.width="80px";
     document.getElementById('card1').style.width="700px";
    })
+ */
 
+   const cards = document.querySelectorAll('div.cards');
 
-   const cards = document.getElementById('card2');
-    cards.addEventListener('click', () =>{
+cards.forEach(card => {
+  card.addEventListener("click", cambio);
+});
 
-    document.getElementById('card1').style.width="80px";
-    document.getElementById('card2').style.width="700px";
-   })
-    
+function cambio(event) {
+  event.target.classList.toggle('card1');
+  event.target.classList.toggle('cards');
+}
+
  
 
 

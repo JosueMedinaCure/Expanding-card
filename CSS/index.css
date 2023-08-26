@@ -11,25 +11,23 @@ body {
     justify-content: center;
 }
 
-.card{
+.cards{
     height: 500px;
     width: 80px;
     border-radius: 65px;
     background-color: aqua;
     margin: 5px;
     margin-top: 80px;
-}
-
-#card1{
-    background-color: brown;
-    width: 700px;
     transition: .8s;
-    
 }
 
-#card2{
+.card1{
     background-color: rgb(88, 88, 202);
-    width: 80px;
     transition: .8s;
     
+    height: 500px;
+    width: 700px;
+    border-radius: 65px;
+    margin: 5px;
+    margin-top: 80px;
 }
