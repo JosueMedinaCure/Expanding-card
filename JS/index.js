@@ -2,7 +2,7 @@
 
 const cards = document.querySelectorAll('div.cards');
 
-cards.forEach(carta => {
+cards.forEach(carta => {/* forEach para que recorra todos los divs  */
    carta.addEventListener('click',() => {
       removeCard()
    carta.classList.add('active'); 
