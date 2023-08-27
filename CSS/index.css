@@ -21,9 +21,10 @@ body {
     transition: .8s;
 }
 
-.card1{
+.active{
     background-color: rgb(88, 88, 202);
     transition: .8s;
+    transform: gradient(red, 355, 155);
     
     height: 500px;
     width: 700px;
